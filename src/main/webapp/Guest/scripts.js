@@ -31,17 +31,26 @@ $("#user-login").click(function()
     document.location.href = path;                     
 });
 
-/*
- * $("li").click(function{ alert("x"); var data = {}, data2 = {}; var url =
- * document.location.href, params = url.split('?')[1].split('&'), tmp, params2 =
- * url.split('?')[2].split('&');
- * 
- * alert(params[0]); alert(params2[0]); for (var i = 0, l = params.length; i <
- * l; i++) { tmp = params[i].split('='); data[tmp[0]] = tmp[1]; }
- * 
- * for (var i = 0, l = params2.length; i < l; i++) { tmp =
- * params2[i].split('='); data2[tmp[0]] = tmp[1]; } });
- */
+/*$("li").click(function{
+                       alert("x");
+    var data = {},
+    data2 = {};
+    var url = document.location.href,
+    params = url.split('?')[1].split('&'), tmp,
+    params2 = url.split('?')[2].split('&');
+    
+    alert(params[0]);
+    alert(params2[0]);
+    for (var i = 0, l = params.length; i < l; i++) {
+         tmp = params[i].split('=');
+         data[tmp[0]] = tmp[1];
+    }
+
+    for (var i = 0, l = params2.length; i < l; i++) {
+         tmp = params2[i].split('=');
+         data2[tmp[0]] = tmp[1];
+    }
+});*/
 
 window.onload = function () {
 
@@ -72,10 +81,10 @@ window.onload = function () {
     }
     
 }
-// --------------văn khải-----
+//--------------văn khải-----
 // _______________________________________________
 // MINH PHỤNG
-// ________________________________________________
+//________________________________________________
 
 
 
@@ -618,7 +627,7 @@ product.innerHTML = `
 
 
 
-// HÀM JQUERY
+//HÀM JQUERY
 
 jQuery.noConflict(),jQuery(document).ready(function()
 {
@@ -718,4 +727,4 @@ jQuery(".banner").removeClass("loading")
 
 // _______________________________________________
 // MINH PHỤNG CLOSE
-// ________________________________________________
+//________________________________________________
